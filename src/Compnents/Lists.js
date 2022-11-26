@@ -28,7 +28,7 @@ export default class List extends Component {
     });
   };
 
-  async componentDidMount() {
+  async componentDidMount() { 
     console.log("CDM is called ");
      let res = await fetch(
       "https://api.themoviedb.org/3/movie/popular?api_key=1749ee86927c862e6ac40360e3eb8c0d&language=en-US&page=2"
